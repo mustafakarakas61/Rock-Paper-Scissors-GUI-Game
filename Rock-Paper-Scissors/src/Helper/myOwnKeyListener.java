@@ -131,6 +131,12 @@ public class myOwnKeyListener implements KeyListener {
 			}
 			// Left Win
 			if (A && L) {
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				int score = Integer.parseInt(MainScreenGUI.lbl_LeftScore.getText());
 				MainScreenGUI.lbl_Result.setText("Pink Win!");
 				score = score + 1;
@@ -144,6 +150,12 @@ public class myOwnKeyListener implements KeyListener {
 				start = false;
 			}
 			if (S && J) {
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				int score = Integer.parseInt(MainScreenGUI.lbl_LeftScore.getText());
 				MainScreenGUI.lbl_Result.setText("Pink Win!");
 				score = score + 1;
@@ -157,6 +169,12 @@ public class myOwnKeyListener implements KeyListener {
 				start = false;
 			}
 			if (D && K) {
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				int score = Integer.parseInt(MainScreenGUI.lbl_LeftScore.getText());
 				MainScreenGUI.lbl_Result.setText("Pink Win!");
 				score = score + 1;
@@ -171,6 +189,12 @@ public class myOwnKeyListener implements KeyListener {
 			}
 			// Right Win
 			if (J && D) {
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				int score = Integer.parseInt(MainScreenGUI.lbl_RightScore.getText());
 				MainScreenGUI.lbl_Result.setText("Blue Win!");
 				score = score + 1;
@@ -184,6 +208,12 @@ public class myOwnKeyListener implements KeyListener {
 				start = false;
 			}
 			if (K && A) {
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				int score = Integer.parseInt(MainScreenGUI.lbl_RightScore.getText());
 				MainScreenGUI.lbl_Result.setText("Blue Win!");
 				score = score + 1;
@@ -197,6 +227,12 @@ public class myOwnKeyListener implements KeyListener {
 				start = false;
 			}
 			if (L && S) {
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				int score = Integer.parseInt(MainScreenGUI.lbl_RightScore.getText());
 				MainScreenGUI.lbl_Result.setText("Blue Win!");
 				score = score + 1;
@@ -212,6 +248,12 @@ public class myOwnKeyListener implements KeyListener {
 			}
 			// Draw
 			if (A && J) {
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				MainScreenGUI.lbl_Result.setText("DRAW");
 				A = false;
 				S = false;
@@ -222,6 +264,12 @@ public class myOwnKeyListener implements KeyListener {
 				start = false;
 			}
 			if (S && K) {
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				MainScreenGUI.lbl_Result.setText("DRAW");
 				A = false;
 				S = false;
@@ -232,6 +280,12 @@ public class myOwnKeyListener implements KeyListener {
 				start = false;
 			}
 			if (D && L) {
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				MainScreenGUI.lbl_Result.setText("DRAW");
 				A = false;
 				S = false;
